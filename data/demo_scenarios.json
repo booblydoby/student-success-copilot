@@ -1,0 +1,38 @@
+{
+  "normal_user": {
+    "user": {
+      "user_id": 1,
+      "gender": "male",
+      "confidence": 4,
+      "stress": 2,
+      "attendance_rate": 0.9,
+      "availability": [
+        {"day": "Monday", "hours_available": 3},
+        {"day": "Wednesday", "hours_available": 3},
+        {"day": "Friday", "hours_available": 4}
+      ]
+    },
+    "tasks": [
+      {"task_id": "apple", "course": "AI", "deadline_days": 5, "estimated_hours": 4, "difficulty": 3},
+      {"task_id": "banana", "course": "Math", "deadline_days": 7, "estimated_hours": 3, "difficulty": 2}
+    ]
+  },
+
+  "at_risk_user": {
+    "user": {
+      "user_id": 2,
+      "gender": "female",
+      "confidence": 2,
+      "stress": 5,
+      "attendance_rate": 0.6,
+      "availability": [
+        {"day": "Monday", "hours_available": 2},
+        {"day": "Tuesday", "hours_available": 1}
+      ]
+    },
+    "tasks": [
+      {"task_id": "apple", "course": "AI", "deadline_days": 2, "estimated_hours": 6, "difficulty": 4},
+      {"task_id": "banana", "course": "Physics", "deadline_days": 3, "estimated_hours": 5, "difficulty": 4}
+    ]
+  }
+}
